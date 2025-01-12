@@ -1,3 +1,5 @@
+//  Problem Statement: Given an array, we have to find the largest element in the array.
+
 const array = [12, 45, 78, 12, 67, 89, 45, 56, 78, 67]
 
 /*

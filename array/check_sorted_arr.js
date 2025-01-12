@@ -1,3 +1,7 @@
+//  Problem Statement: Given an array of size n, 
+//  write a program to check if the given array is sorted in ascending order or not. 
+//  If the array is sorted then return True, Else return False.
+
 const array = [12, 45, 78, 12, 67, 89, 45, 56, 78, 67]
 const sorted_array = [...array].sort()
 

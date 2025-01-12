@@ -1,13 +1,15 @@
+//  Problem Statement: Given an array, 
+//  find the second largest element in the array. 
+//  Print ‘-1’ in the event that it doesn’t exist.
+
 const array = [12, 45, 78, 12, 67, 89, 45, 56, 78, 67]
 
-// We use four variables: small, second_small, large, and second_large.
-// Initialize small and second_small to Infinity (INT_MAX equivalent).
+// We use two variables: large, and second_large.
 // Initialize large and second_large to -Infinity (INT_MIN equivalent).
 
 /*
-    1) Find the smallest and largest elements in a single traversal of the array.
+    1) Find the largest elements in a single traversal of the array.
     2) Traverse the array again to find:
-    - The element just greater than the smallest (second smallest).
     - The element just smaller than the largest (second largest).
 */
 
