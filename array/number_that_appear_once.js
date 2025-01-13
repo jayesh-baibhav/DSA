@@ -56,6 +56,7 @@ function findNumAppearingOnes_A(arr){
     }
     return -1
 }
+
 /*
     1) Create an empty `Map` (`freq`) to store the frequency count of each element.
     2) Traverse each element in the array using a `for...of` loop:
