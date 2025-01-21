@@ -1,4 +1,7 @@
-//  Problem Statement: Given an array, and an element num, the task is to find if num is present in the given array or not.
+/*
+    Problem Statement: Given an array, and an element num, 
+    the task is to find if num is present in the given array or not.
+*/
 
 const array = [4,3,2,1,0,5,6,7,8,9]
 
