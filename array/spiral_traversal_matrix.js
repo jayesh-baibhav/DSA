@@ -1,9 +1,14 @@
 //  Problem Statement: Given a Matrix, print the given matrix in spiral order.
 
-let matrix = [[1, 2, 3, 4],
+let matrixA = [[1, 2, 3, 4],
              [5, 6, 7, 8],
              [9, 10, 11, 12],
              [13, 14, 15, 16]];
+
+let matrixB = [["A","B","C","D"],
+               ["E","F","G","H"],
+               ["I","J","K","L"],
+               ["M","N","O","P"]]
 
 /*
     Process:
@@ -58,4 +63,5 @@ function printSpiral(mat) {
     return ans;
 }
       
-console.log(printSpiral(matrix))
+console.log(printSpiral(matrixA))
+console.log(printSpiral(matrixB))
